@@ -1,0 +1,5 @@
+#Update the following 2 lines for your environment
+SPLUNK_HEC_URL=https://splunk.smg.aws:8088
+SPLUNK_HEC_TOKEN=a778f63a-5dff-4e3c-a72c-a03183659e94
+#Uncomment the following line if using untrusted SSL certificates
+#SC4S_DEST_SPLUNK_HEC_TLS_VERIFY=no
