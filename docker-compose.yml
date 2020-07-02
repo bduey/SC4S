@@ -1,4 +1,8 @@
 version: "3.7"
+volumes:
+  splunk-sc4s-var:
+    external:
+      name: 'splunk-sc4s-var'
 services:
   sc4s:
     image: splunk/scs:latest
@@ -7,17 +11,17 @@ services:
          published: 514
          protocol: tcp
 # Comment the following line out if using docker-compose
-         mode: host
+#        mode: host
        - target: 514
          published: 514
          protocol: udp
 # Comment the following line out if using docker-compose         
-         mode: host
+#        mode: host
        - target: 6514
          published: 6514
          protocol: tcp
 # Comment the following line out if using docker-compose         
-         mode: host
+#        mode: host
     env_file:
       - /opt/sc4s/env_file
     volumes:
