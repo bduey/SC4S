@@ -1,0 +1,5 @@
+<30>Aug 03 11:40:27 myserver sshd[26459]: Accepted publickey for ironman from 192.168.1.1 port 41193 ssh2
+2020 Aug 03 14:33:14 UTC: %UCSM-6-AUDIT: [ironman2][username][creation][] Ethernet interface created
+Aug 03 10:32:22 marvel1 mgd[3606]: UI_DBASE_LOGOUT_EVENT: User 'irongirl exiting configuration mode
+Aug 03 11:36:15 marvel2 mgd[3606]: UI_COMMIT: User 'ironman_root' performed commit: no comment
+Aug 03 11:46:37 marvel3 mib2d[2905]: SNMP_TRAP_LINK_DOWN: ifIndex 82, ifAdminStatus up(1), ifOperStatus down(2), ifName at-1/0/0
